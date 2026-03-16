@@ -48,6 +48,22 @@ Every package extends `tsconfig.base.json` which sets `composite: true`. The roo
 - `pnpm run build` — runs `typecheck` first, then recursively runs `build` in all packages that define it
 - `pnpm run typecheck` — runs `tsc --build --emitDeclarationOnly` using project references
 
+## Artifacts
+
+### `artifacts/aurora-group` (`@workspace/aurora-group`)
+
+Aurora Group corporate website — a high-end, single-page React + Vite app with:
+- Full-screen parallax hero with luxury hotel imagery
+- Glassmorphism navbar with smooth scroll navigation
+- About, Divisions (4 cards), Featured Locations (horizontal scroll), Impact stats, Careers, and Contact sections
+- Animated counters with Framer Motion
+- Gold/amber + deep navy dark theme (Playfair Display + Inter typography)
+- Fully responsive
+
+**Key packages**: framer-motion, clsx, tailwind-merge, lucide-react
+
+---
+
 ## Packages
 
 ### `artifacts/api-server` (`@workspace/api-server`)

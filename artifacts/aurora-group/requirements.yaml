@@ -1,0 +1,4 @@
+packages:
+  "framer-motion": "For high-end cinematic animations, parallax effects, and scroll reveals"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to cleanly merge tailwind classes without style conflicts"
